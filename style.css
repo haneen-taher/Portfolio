@@ -132,6 +132,10 @@ margin-bottom: 30px;}
 .btn:hover{
     background-color: #e76d5a; transform: scale(1.1);
 }
+.btn a {
+    text-decoration: none;
+    color: #1a1a4e;
+}
 .footer{
     background-color: #1a1a4e;
     color: #7ac9c5;
