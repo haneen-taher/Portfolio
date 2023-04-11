@@ -366,10 +366,7 @@ div.cont-img {
   .content {
     align-items: center;
   }
-  .project {
-    align-items: center;
-    padding-top: 10px;
-  }
+ 
   div.project {
     color: #d56f5f;
     text-align: center;
@@ -378,6 +375,22 @@ div.cont-img {
     padding: 15px;
     margin-left: 5px;
   }
+  div.cont-img {
+    padding:5px;
+    margin-bottom: 15px;
+    padding-bottom: 40px;
+  }
+  div.cont {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin: 15px;
+    gap: 30px;
+}
+.p-5{
+  padding: 2rem !important;
+ 
 }
 
 @media (max-width: 641px) {
@@ -390,13 +403,48 @@ div.cont-img {
   .main h3 {
     font-size: 1.4em;
   }
+  div.cont-img {
+    padding:5px;
+    margin-bottom: 10px;
+    padding-bottom: 25px;
+
+  }
+  div.cont {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin: 10px;
+    gap: 25px;
+}
+.p-5{
+  padding: 1rem !important;
+ 
+}
+
+  
 }
 @media (max-width: 300px) {
   body {
     font-size: 10px;
   }
-  .project {
-    align-items: center;
-    padding-top: 25px;
+
+  div.cont-img {
+    padding:5px;
+    margin-bottom: 5px;
+    padding-bottom: 15px;
+
   }
+  div.cont {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin: 5px;
+    gap: 20px;
 }
+.p-5{
+  padding: 0.5rem !important;
+ 
+}
+} 
